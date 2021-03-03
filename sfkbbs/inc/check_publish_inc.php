@@ -9,8 +9,8 @@ if(mysqli_num_rows(execute($link,$query))!=1){
     skip('publish.php','请选择一个父板块');
 }
 Isempty($_POST['title'],$_POST['content'],'标题不得为空');
-if(mb_strlen(DelHtml($_POST['title']))>255){
-    skip($_SERVER['REQUEST_URI'],'标题字符数过长,仅限255字符');
+if(mb_strlen(DelHtml($_POST['title']))>60){
+    skip($_SERVER['REQUEST_URI'],'标题字符数过长,仅限60字符');
 }
 Isempty(trim($_POST['content']," "),$_SERVER['REQUEST_URI'],'内容不得为空');
 ?>
