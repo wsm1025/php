@@ -103,6 +103,10 @@ div.content,div.content div,div.content ul,div.content ol,div.content li,div.con
 	font-size:14px;
 	color:#333;
 }
+div.content{
+	width: 759px;
+	word-wrap:break-word;
+}
 .wrap1 .pages {
 	float:left;
 }
