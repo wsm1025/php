@@ -81,6 +81,7 @@ echo $css;
 A;	
 echo $css;
 }?>
+
 <body>
 	<div class="header_wrap">
 		<div id="header" class="auto">
