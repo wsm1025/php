@@ -6,7 +6,7 @@ $link = connect();
 $member_id = IsLogin($link);
 ?>
 <?php
-$template['title'] = '首页';
+$template['title'] = '欢迎观临';
 ?>
 <?php include_once 'inc/header.inc.php' ?>
 <div style="margin-top:55px;"></div>
