@@ -85,7 +85,7 @@ $data_member = mysqli_fetch_assoc($res_member);
 			<div class="member_big">
 				<dl>
 					<dt>
-					   <img onclick="show('<?php echo $data_member['photo'] ? Pth.$data_member['photo'] : IMG_USER; ?>')" width="180" height="180" src="<?php echo $data_member['photo'] ? $data_member['photo'] : IMG_USER; ?>" />
+					   <img onclick="show('<?php echo $data_member['photo'] ? $data_member['photo'] : IMG_USER; ?>')" width="180" height="180" src="<?php echo $data_member['photo'] ? $data_member['photo'] : IMG_USER; ?>" />
 					</dt>
 					<dd class="name"><?php echo $data_member['name'];?></dd>
 					<dd>帖子总计：<?php echo $num_ALL;?></dd>
