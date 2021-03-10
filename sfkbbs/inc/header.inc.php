@@ -41,7 +41,7 @@ $data= mysqli_fetch_assoc(execute($link,$query));
     		padding:5px 0 10px 0px;
 		}
 		</style>
-A;	
+A;
 echo $css;
 }?>
 <?php if(basename($_SERVER['SCRIPT_NAME'])=='member_photo_update.php'||basename($_SERVER['SCRIPT_NAME'])=='password_update.php'){
@@ -78,7 +78,7 @@ echo $css;
 					border-radius:10px;
 				}
 			</style>
-A;	
+A;
 echo $css;
 }?>
 
